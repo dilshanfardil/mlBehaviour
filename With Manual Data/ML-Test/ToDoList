@@ -1,0 +1,66 @@
+
+Vehical OBD2 Data logger with the Interface
+
+Driver Behaviour
+    + Select the Parameters
+    + Only OBD-II data and with the manual data
+    + Two Different Models
+    
+Vehical Diagnostic
+    + Fule Consumption
+    + Vehical Condition
+
+Vehical Error Codes
+
+----------------------------------------
+----------  Driver Behaviour  ----------
+----------------------------------------
+
+Parameters
+    1   Vehicles speed - (0D13)
+    2   Shift number - (A4164)
+    3   Engine Load - (044)
+    4   Total Acceleration - (From the Accolometer)
+    5   Engine RPM (0C12)
+    6   Throttle Position (1117)
+    7   Pitch (From Gyroscope)
+    8   Lateral Acceleration - (From the Accolometer)
+    **************************************************
+    9   Passenger count (0 - 5)
+    10  Cars load (0 - 10)
+    11  Air conditioning status (0 - 4)
+    12  Window opening (0 - 10)
+    13  Radio volume (0 - 10)
+    14  Rain intensity (0 - 10)
+    15  Visibility (0 - 10)
+    16  Drivers wellbeing (0 - 10)
+    17  Drivers rush (0 - 10)
+
+
+
+
+
+------------------------------------------
+----------  Vehical Diagnostic  ----------
+------------------------------------------
+
+Parameters
+    timeStamp - System Time
+    tripID - 
+    accData - 
+    gps_speed - 
+    battery - Battery Voltage - (ATRV)
+    cTemp - Engine coolant temperature - (055)
+    dtc - DTC Code - (0A)
+    eLoad - Engine Load - (044)
+    iat - Intake Air Temperature - (0F15)
+    imap - Manifold Absolute Pressure - (4F79)
+    kpl - Speed/Mass Flow Ratio - (0D13/66102)
+    maf - Mass Flow Ratio - (66102)
+    rpm - Engine RPM (0C12)
+    speed - Vehicles speed - (0D13)
+    tAdv - Timimg Advamve - (0E14)
+    tPos - Throttle Position (1117)
+    deviceID
+
+   
